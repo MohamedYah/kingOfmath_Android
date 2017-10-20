@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resultat_league_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.admin.mathman.activity.ResultatLeagueGameActivity">
+    <Button
+        android:id="@+id/bResultat"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" Return "
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/local"
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+
+        />
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" loading . . . "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_above="@+id/bResultat" />
+</RelativeLayout>

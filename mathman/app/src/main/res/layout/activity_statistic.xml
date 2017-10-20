@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/b8"
+    tools:context="com.example.admin.mathman.activity.StatisticActivity">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/ProfilPhoto"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/NomProfil"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="rihab "
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_alignBottom="@+id/ProfilPhoto"
+        android:layout_toRightOf="@+id/ProfilPhoto"
+        android:layout_toEndOf="@+id/ProfilPhoto"
+        android:layout_marginBottom="12dp" />
+
+    <TextView android:id="@+id/scoreQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+
+        android:text="Quiz score = 21"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ProfilPhoto" />
+
+
+    <TextView android:id="@+id/scoreAdventure"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+        android:text="Adventure score = 40"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/scoreQuiz"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:id="@+id/scoreleague"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+        android:text="league score = 0 pts"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/scoreAdventure"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:id="@+id/scoreTournoi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+        android:text="Tournament score = 0 pts"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/scoreleague"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:id="@+id/scoreTotal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+        android:text="Total score = 178"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/scoreTournoi"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

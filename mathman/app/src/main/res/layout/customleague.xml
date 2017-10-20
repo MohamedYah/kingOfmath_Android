@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/REGISTRATION"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" REGISTRATION "
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/MATCH"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" MATCH "
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+        android:layout_below="@+id/REGISTRATION"
+        android:layout_alignLeft="@+id/REGISTRATION"
+        android:layout_alignStart="@+id/REGISTRATION" />
+
+
+    <Button
+        android:id="@+id/CALENDAR"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" CALENDAR "
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+        android:layout_below="@+id/RANKING"
+        android:layout_alignLeft="@+id/RANKING"
+        android:layout_alignStart="@+id/RANKING"
+        />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" exit "
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+        android:layout_below="@+id/CALENDAR"
+        android:layout_alignLeft="@+id/CALENDAR"
+        android:layout_alignStart="@+id/CALENDAR" />
+
+    <Button
+        android:id="@+id/RANKING"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" RANKING "
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+        android:layout_below="@+id/MATCH"
+        android:layout_alignLeft="@+id/MATCH"
+        android:layout_alignStart="@+id/MATCH" />
+
+
+</RelativeLayout>

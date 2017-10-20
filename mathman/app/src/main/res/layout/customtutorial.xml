@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" Tutorial "
+        android:background="@drawable/button_border"
+        android:layout_below="@+id/quiz"
+        android:textColor="#fff"
+
+        />
+    <Button
+        android:id="@+id/adventure"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" adventure "
+        android:background="@drawable/button_border"
+        android:layout_below="@+id/tutorial"
+        android:textColor="#fff"
+
+        />
+
+    <Button
+        android:id="@+id/local"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" Local "
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/adventure"
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+
+        />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" Exit "
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/local"
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+
+        />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:text=" quiz "
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/tutorial"
+        android:layout_alignStart="@+id/tutorial" />
+</RelativeLayout>

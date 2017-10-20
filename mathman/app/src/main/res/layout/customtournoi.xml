@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" registration "
+        android:background="@drawable/button_border"
+        android:layout_below="@+id/play"
+        android:textColor="#fff"
+
+        />
+
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:text=" play "
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/registration"
+        android:layout_alignStart="@+id/registration" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" Exit "
+        android:background="@drawable/button_border"
+        android:textColor="#fff"
+        android:layout_below="@+id/registration"
+        android:layout_alignLeft="@+id/registration"
+        android:layout_alignStart="@+id/registration" />
+</RelativeLayout>

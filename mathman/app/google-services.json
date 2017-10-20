@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "66374794639",
+    "firebase_url": "https://mathman-a2326.firebaseio.com",
+    "project_id": "mathman-a2326",
+    "storage_bucket": "mathman-a2326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66374794639:android:39011d701d113503",
+        "android_client_info": {
+          "package_name": "com.example.admin.mathman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66374794639-ccu6j2kad9v10o2likjnntpoqnd6fh8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.mathman",
+            "certificate_hash": "b3bf7193032dbb91371b63c77c85559d0ed9eecd"
+          }
+        },
+        {
+          "client_id": "66374794639-l2qbj9brfpv6ur3v5mmmlvs91cn2icr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbO6ydZ2nA6TzhgBiMLnhc7sg5E7p6VjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66374794639-l2qbj9brfpv6ur3v5mmmlvs91cn2icr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

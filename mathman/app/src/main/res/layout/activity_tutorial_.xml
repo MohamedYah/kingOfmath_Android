@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ffff4d"
+    tools:context="com.example.admin.mathman.activity.Tutorial_Activity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_height="70dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/ButtonAdd"
+                    android:background="@drawable/plustuto" />
+
+
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/moinstuto"
+                    android:id="@+id/ButtonSous"/>
+
+
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/quizzitem4"
+                    android:id="@+id/ButtonMulti" />
+
+
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/quizzitem6"
+                    android:id="@+id/ButtonDivi" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70px"
+            android:id="@+id/ImgTuto"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50px">
+            <Button
+                android:layout_width="250px"
+                android:layout_height="150px"
+                android:layout_gravity="left"
+                android:background="@drawable/button_border"
+                android:text="Previous"
+                android:textColor="#fff"
+                android:id="@+id/ButtonPrev" />
+            <Button
+                android:layout_width="250px"
+                android:layout_height="150px"
+                android:layout_gravity="left"
+                android:background="@drawable/button_border"
+                android:text="Next"
+                android:textColor="#fff"
+                android:layout_marginLeft="90px"
+                android:id="@+id/ButtonNext"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
